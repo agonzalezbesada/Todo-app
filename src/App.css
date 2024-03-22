@@ -1,0 +1,54 @@
+.todo-title {
+  text-decoration: underline;
+}
+
+.todo-container {
+  margin-left: 50px;
+  width: 100vw;
+}
+
+.tasks-list {
+  width: 70%;
+}
+
+.tasks-list-limit {
+  margin-left: 0;
+  width: 80%;
+}
+
+.task {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.add-task-container {
+  display: flex;
+  width: 60%;
+}
+
+.add-task-text {
+  margin: 0;
+}
+
+.task-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  flex-grow: 1;
+}
+
+.task-form > input {
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.task-form > button {
+  position: absolute;
+  right: 5px;
+}
